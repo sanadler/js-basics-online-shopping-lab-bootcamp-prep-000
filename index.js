@@ -61,9 +61,15 @@ function viewCart() {
     }
   }
 }
+addToCart("apples");
+addToCart("bananas");
+addToCart("peanuts");
+viewCart();
+
 
 function total() {
   // write your code here
+<<<<<<< HEAD
   var keyArr = [];
   var valueArr = [];
   var valueSum = 0;
@@ -73,10 +79,16 @@ function total() {
     var valueSum = valueSum + valueArr[i];
   }
   return valueSum;
+=======
+  for (let i=0; i<cart.length; i++){
+
+  }
+>>>>>>> ebc8def23cb209e4cc938611c31b7d6c179b5821
 }
 
 function removeFromCart(item) {
   // write your code here
+<<<<<<< HEAD
   for (let i=0; i<cart.length; i++){
     if (item === Object.keys(cart[i])[0]){
       cart.splice(i, 1);
@@ -84,6 +96,9 @@ function removeFromCart(item) {
     }
   }
   console.log("That item is not in your cart.");
+=======
+
+>>>>>>> ebc8def23cb209e4cc938611c31b7d6c179b5821
 }
 
 function placeOrder(cardNumber) {
