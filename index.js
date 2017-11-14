@@ -112,9 +112,3 @@ function placeOrder(cardNumber) {
     cart = [];
   }
 }
-
-const arr = [1, 2, 3];
-
-const eachExample = () => arr.forEach(e => e);
-
-console.log(eachExample());
